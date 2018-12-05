@@ -1,0 +1,21 @@
+spring:
+  profiles:
+    active: dev
+    include:
+      - mybatis
+      - redis
+
+#微信配置相关
+weixin:
+  config:
+    appId: wx758d34de8f140e31
+    secret: 0d0ccacb620dae324c85bc563cff70f6
+  code2session:
+    url: https://api.weixin.qq.com/sns/jscode2session?appid={appId}&secret={secret}&js_code={code}&grant_type=authorization_code
+
+logging:
+  config:
+   classpath: logback-spring.xml
+
+upload:
+  distanceconfig: 1

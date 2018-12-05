@@ -1,0 +1,10 @@
+# Server settings
+server:
+  port: 8088
+  servlet.context-path: /mashangdao
+
+spring:
+  profiles:
+    include:
+      - db-dev
+      - redis-dev
