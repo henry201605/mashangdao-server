@@ -1,17 +1,16 @@
 package com.nstepa.wc.admin.services;
 
-
+import com.nstepa.wc.beans.Pay;
 import com.baomidou.mybatisplus.service.IService;
-import com.nstepa.wc.beans.Login;
 
 /**
  * <p>
- *  服务类
+ * 订单支付表 服务类
  * </p>
  *
  * @author henry
- * @since 2018-09-06
+ * @since 2018-12-10
  */
-public interface LoginService extends IService<Login> {
+public interface PayService extends IService<Pay> {
 
 }
