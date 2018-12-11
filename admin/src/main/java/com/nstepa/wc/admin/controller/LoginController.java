@@ -65,7 +65,7 @@ public class LoginController extends BaseController{
 	@Value("${weixin.config.secret}")
 	private String secret;
 
-	@Value("${weixin.sessionId-expire}")
+	@Value("${weixin.config.sessionId-expire}")
 	private String sessionIdExpire;
 
 	@Value("${weixin.code2session.url}")
