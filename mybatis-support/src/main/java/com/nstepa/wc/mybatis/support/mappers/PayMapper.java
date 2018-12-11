@@ -1,7 +1,7 @@
 package com.nstepa.wc.mybatis.support.mappers;
 
-import com.baomidou.mybatisplus.mapper.BaseMapper;
 import com.nstepa.wc.beans.Pay;
+import com.baomidou.mybatisplus.mapper.BaseMapper;
 
 /**
  * <p>

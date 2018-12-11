@@ -1,16 +1,15 @@
 package com.nstepa.wc.admin.services;
 
-
-import com.baomidou.mybatisplus.service.IService;
 import com.nstepa.wc.beans.User;
+import com.baomidou.mybatisplus.service.IService;
 
 /**
  * <p>
- *  服务类
+ * 用户登录表 服务类
  * </p>
  *
  * @author henry
- * @since 2018-09-06
+ * @since 2018-12-10
  */
 public interface UserService extends IService<User> {
 
