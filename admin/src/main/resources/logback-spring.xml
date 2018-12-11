@@ -69,13 +69,13 @@
         </encoder>
     </appender>
     <springProfile name="dev">
-        <!--<root level="info">-->
-            <!--<appender-ref ref="STDOUT"/>-->
-        <!--</root>-->
-
-        <logger name="com.nstepa.wc" level="debug" additivity="false">
+        <root level="info">
             <appender-ref ref="STDOUT"/>
-        </logger>
+        </root>
+
+        <!--<logger name="com.nstepa.wc" level="info" additivity="true">-->
+            <!--<appender-ref ref="STDOUT"/>-->
+        <!--</logger>-->
 
     </springProfile>
 
